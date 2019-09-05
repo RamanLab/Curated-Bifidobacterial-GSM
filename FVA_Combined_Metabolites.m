@@ -57,11 +57,5 @@ end
 end 
 end
 
-% Total_SCF_Prodn_min=round(Total_SCF_Prodn_min,2,'decimal');
-% Total_SCF_Prodn_max=round(Total_SCF_Prodn_max,2,'decimal');
-% save('Total_SCF_Prodn_min.mat','Total_SCF_Prodn_min','-double');
-% save('Total_SCF_Prodn_max.mat','Total_SCF_Prodn_max','-double');
-% 
-% Biomass_Growth=round(Biomass_Growth,2,'decimal');
-% save('Biomass_Growth.mat','Biomass_Growth','-double');
+
 
