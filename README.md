@@ -1,2 +1,2 @@
 # Curated-Bifidobacteria-GEM
-Expanded Genome Scale Metabolic Models of 36 strains of Bifidobacteria
+Deciphering the metabolic capabilities of Bifidobacteria using genome-scale metabolic models
