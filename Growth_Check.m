@@ -40,7 +40,7 @@ for C_source=1:length(Saccharides)
         end
       
  
-     Bif_Growth(Org,C_source)= optimizeCbModel(New_model);
+     Bif_Growth(Org,C_source)= optimizeCbModel(New_model,'max','one');
 
     Specific_Growth(Org,C_source)= Bif_Growth(Org,C_source).f;
         
