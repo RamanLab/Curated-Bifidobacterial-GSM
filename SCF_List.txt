@@ -1,0 +1,5 @@
+EX_ac(e)
+EX_lac_L(e)
+EX_etoh(e)
+EX_for(e)
+EX_succ(e)
