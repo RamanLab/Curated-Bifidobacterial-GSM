@@ -1,3 +1,5 @@
+% Program to Compute FVA on five different SCFA in 30 different Environments
+
 clc
 clear
 
@@ -50,13 +52,13 @@ for C_source=1:length(Saccharides)
     if (Fix_Biomass_Growth.f>1e-02)
 
  [Total_SCF_Prodn_min{Org,C_source},Total_SCF_Prodn_max{Org,C_source}] =fluxVariability(New_model,100,'max',New_model.rxns(SCF_id{Org,1}));
-    else 
- 
+  else 
                      
-% end
 end
 end 
 end
+
+
 
 
 
