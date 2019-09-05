@@ -1,14 +1,15 @@
 clc
 clear
 
+% Carbon source, Essential Nutrients and List of SCFA
 Saccharides=importdata('30_Saccharides.txt');
 Universal_CDM=importdata('Final_media_without_C_source.txt');
 SCF_List=importdata('SCF_List.txt');
 
 
 % Folder with Curated Bifidobacterial Models
-folder = 'Curated_Bifidobacterial_Models';
-Files = get_model_names('Curated_Bifidobacterial_Models');
+folder = 'Curated_Bif_Models';
+Files = get_model_names('Curated_Bif_Models');
 cd(folder);
 
 
