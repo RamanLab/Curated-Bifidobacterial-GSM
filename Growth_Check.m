@@ -3,14 +3,15 @@
 
 clc
 clear
+
 % List of Carbon Sources
 Saccharides=importdata('30_Saccharides.txt');
 % Universal Media
 Universal_CDM=importdata('Final_media_without_C_source.txt');
 
 % Folder with Curated Bifidobacterial Models
-folder = 'Curated_Bifidobacterial_Models';
-Files = get_model_names('Curated_Bifidobacterial_Models');
+folder = 'Curated_Bif_models';
+Files = get_model_names('Curated_Bif_models');
 cd(folder);
 
 
@@ -44,6 +45,9 @@ for C_source=1:length(Saccharides)
     Specific_Growth(Org,C_source)= Bif_Growth(Org,C_source).f;
         
 end
-end 
+end
+
+Specific_Growth=round(Specific_Growth,2,'decimal');
+save('Specific_Growth.mat','Specific_Growth','-double');
 
 
